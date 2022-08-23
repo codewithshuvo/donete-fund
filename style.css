@@ -1,0 +1,38 @@
+body{
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      
+}
+.header-baner{
+      text-align: center;
+      background-image: url(image/donation4.jpg);
+      color: white;
+}
+.link-button a{
+      text-decoration: none;
+      background-image: linear-gradient(tomato,orange);
+      color: white;
+      padding: 10px 40px;
+      font-weight: 700px;
+      border-radius: 5px;
+}
+
+/* This is The Second Section  */
+.second-section{
+      padding: 20px;
+      text-align: center;
+}
+.donate-fund{
+      display: inline;
+}
+
+/* This is the foter part  */
+.foter-part{
+      text-align: center;
+      background-color: black;
+      color: white;
+      padding: 5px;
+}
+.foter-part h1{
+      color: brown;
+}
