@@ -1,16 +1,29 @@
-body{
+body {
       font-family: 'Poppins', sans-serif;
       margin: 0;
-      
+
 }
-.header-baner{
+
+.header-baner {
       text-align: center;
       background-image: url(image/donation4.jpg);
+      width: 100%;
+      height: 500px;
       color: white;
+      padding-bottom: 20px;
+
+
+
 }
-.link-button a{
+
+.header-content {
+      padding-top: 20px;
+      
+}
+
+.link-button a {
       text-decoration: none;
-      background-image: linear-gradient(tomato,orange);
+      background-image: linear-gradient(tomato, orange);
       color: white;
       padding: 10px 40px;
       font-weight: 700px;
@@ -18,21 +31,136 @@ body{
 }
 
 /* This is The Second Section  */
-.second-section{
-      padding: 20px;
+.second-section {
+      margin: 10%;
       text-align: center;
 }
-.donate-fund{
-      display: inline;
+
+.donate-fund {
+      display: flex;
+}
+
+.donate-funt-amount {
+      flex: 20%;
+      height: 70px;
+      padding: 5px;
+      margin: 5px;
+      background-color: #cccccc;
+      text-align: center;
+}
+
+#special-fund {
+      color: red;
+      background-color: aqua;
+      border: 2px solid red;
+}
+
+.other-amount {
+      text-align: center;
+      background: white;
+      opacity: .15;
+}
+
+.other-content {
+      margin-top: 20px;
+}
+
+/* This is The third part  */
+.third-part {
+      margin: 5%;
+}
+
+.main-container {
+      display: flex;
+}
+
+.container {
+      flex: 33.33%;
+      height: 300px;
+      padding: 10px;
+      margin: 5px;
+      background-color: #cccccc;
+      text-align: center;
+
+}
+
+.container-text {
+      text-align: center;
+
+}
+
+/* This is the forth part 
+ */
+.forth-part {
+      display: flex;
+      margin: 5%;
+      padding-top: 20px;
+}
+
+.image-part img {
+      width: 450px;
+}
+
+.fourth-part {
+      text-align: center;
+}
+
+.fourth-content {
+      text-align: center;
+}
+
+/* This is fifth part  */
+.fifth-part {
+      display: flex;
+      margin: 5%;
+}
+
+.fifth-image img {
+      width: 450px;
+}
+
+.fifth-content {
+      text-align: center;
+      margin-left: 5px;
+      /* padding-right: 10px; */
+}
+
+/* this is last container  */
+.container-last {
+      margin: 5%;
+      text-align: center;
+}
+
+.button-part {
+
+
+      top: 50%;
+      background-image: linear-gradient(orange, tomato);
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      padding: 15px;
+      min-height: 30px;
+      min-width: 120px;
+
+}
+.button-part a{
+      text-decoration: none;
+      color: white;
+}
+.from-contact{
+      height: 30px;
+      width: 10ox;
 }
 
 /* This is the foter part  */
-.foter-part{
+.foter-part {
       text-align: center;
       background-color: black;
       color: white;
       padding: 5px;
 }
-.foter-part h1{
+
+.foter-part h1 {
       color: brown;
 }
